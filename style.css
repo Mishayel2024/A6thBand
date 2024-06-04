@@ -24,12 +24,12 @@ body {
  header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 10px 10;
     text-align: center;
 }
 nav {
     background-color: #444;
-    padding: 10px 0;
+    padding: 10px 10;
     text-align: center;
 }
 nav a {
@@ -48,18 +48,18 @@ section {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    padding: 10px 10;
+    position: move;
     bottom: 0;
     width: 100%;
 
 }
-@media(max-width: 500px){
+@media(max-width: 100px){
     nav{
-        position: fixed;
-        width: 490px;
-        height: 100px;
-        font-size: x-small;
+        background-size: auto;
+        
+        height: auto;
+        font-size: auto;
     }
    
 }
